@@ -65,7 +65,7 @@
                         <name>jsb/${project.parent.artifactId}:${revision}</name>
                         <env>
                             <BPE_DELIM_JAVA_TOOL_OPTIONS xml:space="preserve"> </BPE_DELIM_JAVA_TOOL_OPTIONS>
-                            <BPE_APPEND_JAVA_TOOL_OPTIONS> -XX:+HeapDumpOnOutOfMemoryError -Djava.security.egd=file:/dev/./urandom</BPE_APPEND_JAVA_TOOL_OPTIONS>
+                            <BPE_APPEND_JAVA_TOOL_OPTIONS> -XX:+HeapDumpOnOutOfMemoryError</BPE_APPEND_JAVA_TOOL_OPTIONS>
                         </env>
                     </image>
                 </configuration>
